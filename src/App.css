@@ -1,0 +1,20 @@
+#app {
+  height: 100vh;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+}
+#app main {
+  overflow: auto;
+  padding-right: 1rem;
+  border-radius: 15px;
+}
+#app main::-webkit-scrollbar {
+  width: 7px;
+}
+#app main::-webkit-scrollbar-thumb {
+  background: rgb(201, 201, 201);
+  border-radius: 7px;
+}

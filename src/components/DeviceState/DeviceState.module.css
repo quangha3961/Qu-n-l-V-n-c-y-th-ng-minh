@@ -1,0 +1,19 @@
+.device-state-cont {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 2.75rem;
+}
+.device__icon svg {
+  height: 55px;
+  width: 55px;
+  color: var(--grey);
+}
+.device__name {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #787f8f;
+}

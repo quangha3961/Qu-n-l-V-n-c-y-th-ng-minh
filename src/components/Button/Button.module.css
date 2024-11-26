@@ -1,0 +1,14 @@
+.btn {
+  background: transparent;
+  padding: 0;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--light-grey);
+}
+.btn:hover {
+  color: var(--blue);
+}

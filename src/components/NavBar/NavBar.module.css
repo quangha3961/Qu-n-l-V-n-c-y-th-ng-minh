@@ -1,0 +1,22 @@
+.nav-bar {
+  height: 100%;
+  background: linear-gradient(to bottom, #000000, #ffffff); /* Black to white gradient */
+  box-sizing: border-box;
+}
+.nav-bar nav {
+  height: 100%;
+}
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100%;
+  color: white; /* Text color white for contrast */
+}
+.nav-bar ul li {
+  color: #ffffff; /* Set text color of list items */
+}

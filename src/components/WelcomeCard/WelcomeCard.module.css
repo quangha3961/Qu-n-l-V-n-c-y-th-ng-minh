@@ -1,0 +1,16 @@
+.welcome {
+  min-height: 160px;
+  background: var(--blue-gradient);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  grid-column: 3 span;
+}
+.greeting .heading {
+  margin: 0;
+}
+.greeting .desc {
+  color: #fafafa;
+}

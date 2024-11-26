@@ -1,0 +1,77 @@
+.stat {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+}
+.temperature.low {
+  background: linear-gradient(120deg, rgb(255, 0, 0), rgb(255, 0, 0)); /* Đỏ cho low */
+}
+.temperature.avg {
+  background: linear-gradient(120deg, rgb(255, 0, 0), rgb(255, 0, 0)); /* Đỏ cho avg */
+}
+.temperature.high {
+  background: linear-gradient(120deg, rgb(255, 0, 0), rgb(200, 0, 0)); /* Đỏ cho high */
+}
+
+.humidity.low {
+  background: linear-gradient(120deg, rgb(0, 200, 0), rgb(0, 200, 0)); /* Xanh lá cho low */
+}
+.humidity.avg {
+  background: linear-gradient(120deg, rgb(0, 200, 0), rgb(0, 200, 0)); /* Xanh lá cho avg */
+}
+.humidity.high {
+  background: linear-gradient(120deg, rgb(0, 255, 0), rgb(0, 200, 0)); /* Xanh lá cho high */
+}
+
+.lighting.low {
+  background: linear-gradient(120deg, rgb(0, 0, 255), rgb(0, 0, 200)); /* Xanh dương cho low */
+}
+.lighting.avg {
+  background: linear-gradient(120deg, rgb(0, 0, 255), rgb(0, 0, 255)); /* Xanh dương cho avg */
+}
+.lighting.high {
+  background: linear-gradient(120deg, rgb(0, 0, 255), rgb(0, 0, 255)); /* Xanh dương cho high */
+}
+
+.rain.low {
+  background: linear-gradient(120deg, rgb(6, 7, 7), rgb(5, 6, 10)); /* Đen cho low */
+}
+.rain.avg {
+  background: linear-gradient(120deg, rgb(3, 8, 14), rgb(4, 6, 8)); /* Đen cho avg */
+}
+.rain.high {
+  background: linear-gradient(120deg, rgb(0, 0, 0), rgb(115, 128, 177)); /* Đen cho high */
+}
+
+.label {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  grid-column: 2 span;
+}
+.figure {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.unit {
+  margin: 0 0 7px;
+  color: #fafafa;
+}
+.judge {
+  font-size: 0.9rem;
+  color: rgb(219, 89, 89);
+  background: rgba(219, 89, 89, 0.1);
+  border-radius: 6px;
+  padding: 4px 10px;
+  display: inline-block;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}

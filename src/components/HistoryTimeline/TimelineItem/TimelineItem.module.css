@@ -1,0 +1,56 @@
+.timeline-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  position: relative;
+  justify-content: flex-start; /* Align to one side */
+}
+
+.timestamp {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  align-self: center;
+  color: #000;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.line {
+  width: 2px;
+  height: 100%;
+  background-color: #000;
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.content {
+  flex-grow: 1;
+  margin-left: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+}
+
+.detail {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+}

@@ -1,0 +1,26 @@
+.nav-item {
+  padding: 0.85rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-item:hover,
+.active .nav-item {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.nav-item .icon {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.nav-item .label {
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .nav-item .label {
+    display: none;
+  }
+}

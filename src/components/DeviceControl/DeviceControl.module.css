@@ -1,0 +1,21 @@
+.device-control-cont {
+  background: #f5f2f2; /* Dark background for the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(61, 20, 158, 0.2); /* Subtle shadow for depth */
+  border-radius: 8px; /* Optional: add rounded corners for a smoother look */
+}
+
+.device__icon svg {
+  height: 55px;
+  width: 55px;
+  color: #333333; /* Dark gray for the icon color */
+}
+.device__name {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #555555; /* Medium gray for the device name text */
+}

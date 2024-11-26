@@ -1,0 +1,6 @@
+.chart {
+  grid-column: 3 span;
+  grid-row: 3 span;
+  background: #d8dfbd;
+  min-height: 100px;
+}
